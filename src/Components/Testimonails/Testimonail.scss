@@ -1,0 +1,208 @@
+.testi_sass{
+overflow: hidden;
+
+.testi_main{
+
+
+   max-width: 100%;
+    height: 70vhvh;
+  
+    
+    background: #F7F7F7;
+    padding-bottom: 150px;
+
+
+
+.testi_title{
+
+   text-align: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    padding-top: 5%;
+    color: #D5A875;
+
+
+}
+
+.testi_para{
+
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+margin-top: 2%;
+text-align: center;
+
+color: #DFC89E;
+
+}
+
+.quote_1{
+
+    
+    width: 47%;
+    height: 318px;
+    background: #F7E9EF;
+    border-radius: 17px;
+    position: relative;
+    
+    
+    
+
+    
+}
+.quote_2{
+
+    
+    width: 47%;
+    height: 318px;
+    background: #F7E9EF;
+    border-radius: 17px;
+    position: relative;
+    
+    
+
+    
+}
+
+.img_quote{
+margin-left: 5%;
+margin-top: 5%;
+}
+
+
+.main_content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main_content_para1{
+  position: absolute;
+max-width: 80%;
+height: 149.06px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+color: #D19962;
+top: 50px;
+left: 40px;
+
+}
+
+
+.testi_icons{
+    color: #F2BA14;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+   
+    top: 20px;
+    bottom: 0;
+}
+
+
+.main_content_para2{
+  
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 330px;
+    text-align: center;
+    
+    color: #E0C9A0;
+    
+}
+
+
+.quotes_main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+@media(max-width:990px){
+
+    .quotes_main{
+        flex-direction: column;
+    }
+
+.quote_1, .quote_2{
+    width: 100%;
+}
+
+
+
+
+}
+
+
+@media(max-width:460px){
+
+.testi_title{
+    font-size: 35px;
+}
+
+.main_content_para1{
+    font-size: 25px;
+}
+
+.main_content_para2{
+    font-size: 18px;
+}
+
+
+
+}
+
+@media (max-width:700px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+}
