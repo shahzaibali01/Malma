@@ -1,34 +1,58 @@
 .testi_sass{
 overflow: hidden;
 
-.testi_main{
 
+.testi_main{
+position: relative;
 
    max-width: 100%;
-    height: 70vhvh;
+   
   
     
     background: #F7F7F7;
-    padding-bottom: 150px;
+    
 
 
 
 .testi_title{
+   display: block;
+   margin: auto;
 
+    width: 983px;
+height: 57px;
    text-align: center;
     font-family: Nunito;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 65px;
-    padding-top: 5%;
+    padding-top: 2%;
     color: #D5A875;
+    text-align: center;
+
+    @media (max-width:950px) {
+
+        font-size: 30px;
+        width: auto;
+        
+    }
+    @media (max-width:600px) {
+
+        font-size: 20px;
+        
+    }
+    @media (max-width:450px) {
+
+        font-size: 17px;
+        
+    }
 
 
 }
 
 .testi_para{
-
+    width:100%;
+    height: 33px;
 
 font-family: Nunito;
 font-style: normal;
@@ -41,16 +65,20 @@ text-align: center;
 
 color: #DFC89E;
 
+
+
+
 }
 
 .quote_1{
 
     
-    width: 47%;
+    width: 675px;
     height: 318px;
     background: #F7E9EF;
     border-radius: 17px;
     position: relative;
+
     
     
     
@@ -60,15 +88,13 @@ color: #DFC89E;
 .quote_2{
 
     
-    width: 47%;
+    width: 675px;
     height: 318px;
     background: #F7E9EF;
     border-radius: 17px;
     position: relative;
     
-    
 
-    
 }
 
 .img_quote{
@@ -81,11 +107,19 @@ margin-top: 5%;
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
+   @media (max-width:1360px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 }
 
 .main_content_para1{
   position: absolute;
-max-width: 80%;
+  width: 583px;
 height: 149.06px;
 font-family: Nunito;
 font-style: normal;
@@ -96,6 +130,12 @@ text-align: center;
 color: #D19962;
 top: 50px;
 left: 40px;
+height: 149.06px;
+
+@media (max-width:1360px) {
+    width: 80%;
+    
+}
 
 }
 
@@ -113,7 +153,8 @@ left: 40px;
 
 .main_content_para2{
   
-    
+    width: 547px;
+height: 30px;
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
@@ -122,20 +163,45 @@ left: 40px;
     text-align: center;
     
     color: #E0C9A0;
+
+
+@media (max-width:990px) {
+    line-height: 330px;
+    
+}
+
+
     
 }
 
 
 .quotes_main{
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
-   gap: 2rem;
+   gap: 1rem;
     margin-top: 3%;
+   
 }
 
 
+@media (max-width:460px){
+    .quote_1, .quote_2{
+        width: 450px;
+        line-height: 10px;
+        font-size: 35px;
+        
+    }
 
+
+    .main_content_para2{
+        line-height: 336px;
+    }
+
+
+
+
+}
 
 
 
@@ -152,14 +218,13 @@ left: 40px;
 
 
 
+
+
 }
 
 
 @media(max-width:460px){
 
-.testi_title{
-    font-size: 35px;
-}
 
 .main_content_para1{
     font-size: 25px;

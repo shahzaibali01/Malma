@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
 .main_navbar{
     display: flex;
     justify-content: space-between;
@@ -10,7 +13,7 @@ padding-right: 150px;
 
 .navbar_text{
     display: flex;
-    
+    font-family: Nunito;
     font-family: Nunito;
 font-style: normal;
 font-weight: 600;
@@ -84,6 +87,7 @@ align-items: center;
    
     font-size: 30px;
     color: #D19962;
+    font-family: Nunito;
 
     
 }

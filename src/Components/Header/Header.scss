@@ -2,16 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Nunito;
 }
 
 .main_header_sass {
   width: 100%;
 
-  .main_classheader{
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      margin: 2rem;
+  .main_classheader {
+    display: flex;
+    flex-direction: column;
+    // gap: 2rem;
+    // margin: 2rem;
   }
 
   .main-header {
@@ -25,6 +26,7 @@
 
   .header_text_sec {
     padding-top: 184px;
+    padding-left: 100px;
   }
   .header_title {
     position: relative;
@@ -43,8 +45,10 @@
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-
     line-height: 65px;
+    // width: 270px;
+    width: 340px;
+    // height: 65px;
   }
 
   .header_para1 {
@@ -66,41 +70,53 @@
   .header_para2 {
     max-width: 602px;
     height: 66px;
-
     z-index: 2;
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
-
+    margin-bottom: 25px;
     color: #ffffff;
+
+    @media (max-width: 370px) {
+      padding-top: 15px;
+    }
   }
 
   .header_btn_sec {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    margin-left: 100px;
+
+   @media (max-width:600px){
+
+    margin-left: 0px !important;
+
+   }
+
+
+
   }
   .header_btn1 {
     border: none;
     background: #faf3f6;
     border-radius: 19px;
-    padding: 15px 25px 15px 25px;
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
-
+    width: 199px;
+    height: 48px;
     color: #d19962;
   }
   .header_btn2 {
-    padding: 15px 25px 15px 25px;
-
     border: none;
     background: #faf3f6;
     border-radius: 19px;
-
+    width: 184px;
+    height: 48px;
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
@@ -114,6 +130,10 @@
     .header_title {
       left: 0px !important;
       top: 0px !important;
+    }
+
+    .header_text_sec {
+      padding-left: 50px !important;
     }
 
     .b_img_sec {
@@ -139,7 +159,7 @@
       gap: 1rem;
       margin-top: 60px;
       align-items: center;
-      width: 100%;
+      
       padding-top: 20px !important;
     }
     .header_btn_sec {
@@ -149,6 +169,7 @@
 
     .header_para1 {
       font-size: 40px;
+      line-height: 50px;
     }
     .header_para2 {
       font-size: 20px;
@@ -161,6 +182,10 @@
   }
 
   @media (max-width: 420px) {
+    .header_text_sec {
+      padding: 10px !important;
+    }
+
     .header_btn1 {
       width: 250px;
     }

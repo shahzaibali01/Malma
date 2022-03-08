@@ -42,7 +42,7 @@ const Fees = () => {
 
             <div className='price_m' style={{ textAlign: 'center', fontSize: '25px', color: 'white' }}>
 
-              <span style={{ fontSize: '100px' }}>0</span> /mo
+              <span className='zero'>0</span> /mo
 
             </div>
 
@@ -118,7 +118,7 @@ const Fees = () => {
 
             <div className='price_m' style={{ textAlign: 'center', fontSize: '25px', color: 'white' }}>
 
-              <span style={{ fontSize: '100px' }}>200</span> /Initial Consult
+              <span className='zero'>200</span> /Initial Consult
 
             </div>
 

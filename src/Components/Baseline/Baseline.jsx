@@ -13,7 +13,7 @@ const Baseline = () => {
     <img className="image_cartoons" src={Carttons} />
 </div>
 
-<div className='main_card'>
+
 
 
 <div className='base_card'>
@@ -45,7 +45,7 @@ Establish your baseline and set preferences for receiving reminders and notifica
 
 
 
-</div>
+
 
 
 

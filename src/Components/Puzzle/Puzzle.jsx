@@ -15,7 +15,7 @@ const Puzzle = () => {
     <img className='image_puzzle' src={puzzle}/>
 </div>
 
-<div className='puzzle_main_card'>
+
 
 
 
@@ -49,7 +49,7 @@ Now that we have your baseline established and preferences set, let's start logg
 
 
 
-    </div>
+    
 
 
 </div>
